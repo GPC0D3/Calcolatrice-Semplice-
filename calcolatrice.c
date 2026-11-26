@@ -12,9 +12,6 @@ float moltiplicazione(float a, float b) {
     return a * b;
 }
 
-float divisione(float a, float b) {
-    return a / b;
-}
 
 int main() {
     float a, b;
@@ -26,10 +23,6 @@ int main() {
     printf("Sottrazione: %.2f\n", sottrazione(a, b));
     printf("Moltiplicazione: %.2f\n", moltiplicazione(a, b));
 
-    if (b != 0)
-        printf("Divisione: %.2f\n", divisione(a, b));
-    else
-        printf("Impossibile dividere per zero\n");
 
     return 0;
 }
